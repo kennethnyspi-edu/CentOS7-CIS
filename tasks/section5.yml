@@ -7,7 +7,7 @@
   tags:
       - level1
       - patch
-      - rule_5.1.1
+      - centos7cis_rule_5.1.1
 
 - name: "SCORED | 5.1.2 | PATCH | Ensure permissions on /etc/crontab are configured"
   file:
@@ -20,7 +20,7 @@
   tags:
       - level1
       - patch
-      - rule_5.1.2
+      - centos7cis_rule_5.1.2
 
 - name: "SCORED | 5.1.3 | PATCH | Ensure permissions on /etc/cron.hourly are configured"
   file:
@@ -33,7 +33,7 @@
   tags:
     - level1
     - patch
-    - rule_5.1.3
+    - centos7cis_rule_5.1.3
 
 - name: "SCORED | 5.1.4 | PATCH | Ensure permissions on /etc/cron.daily are configured"
   file:
@@ -46,7 +46,7 @@
   tags:
     - level1
     - patch
-    - rule_5.1.4
+    - centos7cis_rule_5.1.4
 
 - name: "SCORED | 5.1.5 | PATCH | Ensure permissions on /etc/cron.weekly are configured"
   file:
@@ -59,7 +59,7 @@
   tags:
     - level1
     - patch
-    - rule_5.1.5
+    - centos7cis_rule_5.1.5
 
 - name: "SCORED | 5.1.6 | PATCH | Ensure permissions on /etc/cron.monthly are configured"
   file:
@@ -72,7 +72,7 @@
   tags:
     - level1
     - patch
-    - rule_5.1.6
+    - centos7cis_rule_5.1.6
 
 - name: "SCORED | 5.1.7 | PATCH | Ensure permissions on /etc/cron.d are configured"
   file:
@@ -86,7 +86,7 @@
   tags:
     - level1
     - patch
-    - rule_5.1.7
+    - centos7cis_rule_5.1.7
 
 - name: "SCORED | 5.1.8 | PATCH | Ensure at/cron is restricted to authorized users"
   file:
@@ -97,7 +97,7 @@
   tags:
     - level1
     - patch
-    - rule_5.1.8
+    - centos7cis_rule_5.1.8
 
 - name: "SCORED | 5.1.8 | PATCH | Ensure at/cron is restricted to authorized users"
   file:
@@ -111,7 +111,7 @@
   tags:
     - level1
     - patch
-    - rule_5.1.8
+    - centos7cis_rule_5.1.8
 
 - name: "SCORED | 5.1.8 | PATCH | Ensure at/cron is restricted to authorized users"
   file:
@@ -122,7 +122,7 @@
   tags:
     - level1
     - patch
-    - rule_5.1.8
+    - centos7cis_rule_5.1.8
 
 - name: "SCORED | 5.1.8 | PATCH | Ensure at/cron is restricted to authorized users"
   file:
@@ -136,7 +136,7 @@
   tags:
     - level1
     - patch
-    - rule_5.1.8
+    - centos7cis_rule_5.1.8
 
 - name: "SCORED | 5.2.1 | PATCH | Ensure permissions on /etc/ssh/sshd_config are configured"
   file:
@@ -150,7 +150,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.1
+    - centos7cis_rule_5.2.1
 
 - name: "SCORED | 5.2.2 | PATCH | Ensure SSH Protocol is set to 2"
   lineinfile:
@@ -163,7 +163,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.2
+    - centos7cis_rule_5.2.2
 
 - name: "SCORED | 5.2.3 | PATCH | Ensure SSH LogLevel is set to INFO"
   lineinfile:
@@ -176,7 +176,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.3
+    - centos7cis_rule_5.2.3
 
 - name: "SCORED | 5.2.4 | PATCH | Ensure SSH X11 forwarding is disabled"
   lineinfile:
@@ -189,7 +189,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.4
+    - centos7cis_rule_5.2.4
 
 - name: "SCORED | 5.2.5 | PATCH | Ensure SSH MaxAuthTries is set to 4 or less"
   lineinfile:
@@ -202,7 +202,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.5
+    - centos7cis_rule_5.2.5
 
 - name: "SCORED | 5.2.6 | PATCH | Ensure SSH IgnoreRhosts is enabled"
   lineinfile:
@@ -215,7 +215,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.6
+    - centos7cis_rule_5.2.6
 
 - name: "SCORED | 5.2.7 | PATCH | Ensure SSH HostbasedAuthentication is disabled"
   lineinfile:
@@ -228,7 +228,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.7
+    - centos7cis_rule_5.2.7
 
 - name: "SCORED | 5.2.8 | PATCH | Ensure SSH root login is disabled"
   lineinfile:
@@ -241,7 +241,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.8
+    - centos7cis_rule_5.2.8
 
 - name: "SCORED | 5.2.9 | PATCH | Ensure SSH PermitEmptyPasswords is disabled"
   lineinfile:
@@ -254,7 +254,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.9
+    - centos7cis_rule_5.2.9
 
 - name: "SCORED | 5.2.10 | PATCH | Ensure SSH PermitUserEnvironment is disabled"
   lineinfile:
@@ -267,7 +267,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.10
+    - centos7cis_rule_5.2.10
 
 # Removed 5.2.11 from CIS Benchmark
 # - name: "SCORED | 5.2.11 | PATCH | Ensure only approved ciphers are used"
@@ -281,7 +281,7 @@
 #       - level2
 #       - medium
 #       - patch
-#       - rule_5.2.11
+#       - centos7cis_rule_5.2.11
 
 - name: "SCORED | 5.2.11 | PATCH | Ensure only approved MAC algorithms are used"
   lineinfile:
@@ -296,7 +296,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.11
+    - centos7cis_rule_5.2.11
 
 - name: "SCORED | 5.2.12 | PATCH | Ensure SSH Idle Timeout Interval is configured"
   lineinfile:
@@ -308,7 +308,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.12
+    - centos7cis_rule_5.2.12
 
 - name: "SCORED | 5.2.12 | PATCH | Ensure SSH Idle Timeout Interval is configured"
   lineinfile:
@@ -321,7 +321,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.12
+    - centos7cis_rule_5.2.12
 
 - name: "SCORED | 5.2.12 | PATCH | Ensure SSH Idle Timeout Interval is configured"
   replace:
@@ -335,7 +335,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.12
+    - centos7cis_rule_5.2.12
 
 - name: "SCORED | 5.2.12 | PATCH | Ensure SSH Idle Timeout Interval is configured"
   lineinfile:
@@ -347,7 +347,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.12
+    - centos7cis_rule_5.2.12
 
 - name: "SCORED | 5.2.12 | PATCH | Ensure SSH Idle Timeout Interval is configured"
   lineinfile:
@@ -360,7 +360,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.12
+    - centos7cis_rule_5.2.12
 
 - name: "SCORED | 5.2.12 | PATCH | Ensure SSH Idle Timeout Interval is configured"
   replace:
@@ -374,7 +374,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.12
+    - centos7cis_rule_5.2.12
 
 - name: "SCORED | 5.2.13 | PATCH | Ensure SSH LoginGraceTime is set to one minute or less"
   lineinfile:
@@ -387,7 +387,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.13
+    - centos7cis_rule_5.2.13
 
 - name: "SCORED | 5.2.14 | PATCH | Ensure SSH access is limited"
   command: /bin/true
@@ -397,7 +397,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.14
+    - centos7cis_rule_5.2.14
 
 - name: "SCORED | 5.2.15 | PATCH | Ensure SSH warning banner is configured"
   lineinfile:
@@ -410,7 +410,7 @@
   tags:
     - level1
     - patch
-    - rule_5.2.15
+    - centos7cis_rule_5.2.15
 
 - name: "SCORED | 5.3.1 | PATCH | Ensure password creation requirements are configured"
   lineinfile:
@@ -430,7 +430,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.1
+    - centos7cis_rule_5.3.1
 
 # auth required pam_faillock.so preauth audit silent deny=5 unlock_time=900
 # auth [default=die] pam_faillock.so authfail audit deny=5 unlock_time=900
@@ -459,7 +459,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.2
+    - centos7cis_rule_5.3.2
     - low
 
 - name: "SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured"
@@ -480,7 +480,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.2
+    - centos7cis_rule_5.3.2
     - low
 
 - name: "SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured - Removal"
@@ -501,7 +501,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.2
+    - centos7cis_rule_5.3.2
     - low
 
 
@@ -526,7 +526,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.2
+    - centos7cis_rule_5.3.2
     - low
 
 - name: 'SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured - pam_unix.so'
@@ -549,7 +549,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.2
+    - centos7cis_rule_5.3.2
     - low
 
 - name: 'SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured - pam_unix.so'
@@ -569,7 +569,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.2
+    - centos7cis_rule_5.3.2
     - low
 
 - name: 'SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured - pam_unix.so'
@@ -589,7 +589,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.2
+    - centos7cis_rule_5.3.2
     - low
 
 # - name: 'SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured - Removal - pam_unix.so'
@@ -608,7 +608,7 @@
 #   tags:
 #     - level1
 #     - patch
-#     - rule_5.3.2
+#     - centos7cis_rule_5.3.2
 #     - low
 
 # END # auth [success=1 default=bad] pam_unix.so #
@@ -636,7 +636,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.2
+    - centos7cis_rule_5.3.2
     - low
 
 - name: "SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured"
@@ -660,7 +660,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.2
+    - centos7cis_rule_5.3.2
     - low
 
 - name: "SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured"
@@ -681,7 +681,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.2
+    - centos7cis_rule_5.3.2
     - low
 
 - name: "SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured - Removal"
@@ -702,7 +702,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.2
+    - centos7cis_rule_5.3.2
     - low
 
 # END # auth [default=die] pam_faillock.so authfail audit deny=5 unlock_time=900 #
@@ -730,7 +730,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.2
+    - centos7cis_rule_5.3.2
     - low
 
 - name: "SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured"
@@ -751,7 +751,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.2
+    - centos7cis_rule_5.3.2
     - low
 
 - name: "SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured - Removal"
@@ -772,7 +772,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.2
+    - centos7cis_rule_5.3.2
     - low
 
 # END # auth sufficient pam_faillock.so authsucc audit deny=5 unlock_time=900 #
@@ -796,7 +796,7 @@
 #   tags:
 #     - level1
 #     - patch
-#     - rule_5.3.2
+#     - centos7cis_rule_5.3.2
 #     - low
 
 # - name: "SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured | system-auth"
@@ -812,7 +812,7 @@
 #   tags:
 #     - level1
 #     - patch
-#     - rule_5.3.2
+#     - centos7cis_rule_5.3.2
 #     - low
 
 # - name: "SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured | system-auth"
@@ -832,7 +832,7 @@
 #   tags:
 #     - level1
 #     - patch
-#     - rule_5.3.2
+#     - centos7cis_rule_5.3.2
 #     - low
 
 # - name: "SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured | system-auth"
@@ -852,7 +852,7 @@
 #   tags:
 #     - level1
 #     - patch
-#     - rule_5.3.2
+#     - centos7cis_rule_5.3.2
 #     - low
 
 # - name: "SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured | password-auth"
@@ -873,7 +873,7 @@
 #   tags:
 #     - level1
 #     - patch
-#     - rule_5.3.2
+#     - centos7cis_rule_5.3.2
 #     - low
 
 # - name: "SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured | password-auth"
@@ -889,7 +889,7 @@
 #   tags:
 #     - level1
 #     - patch
-#     - rule_5.3.2
+#     - centos7cis_rule_5.3.2
 #     - low
 
 # - name: "SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured | password-auth"
@@ -909,7 +909,7 @@
 #   tags:
 #     - level1
 #     - patch
-#     - rule_5.3.2
+#     - centos7cis_rule_5.3.2
 #     - low
 
 # - name: "SCORED | 5.3.2 | Ensure lockout for failed password attempts is configured | password-auth"
@@ -929,7 +929,7 @@
 #   tags:
 #     - level1
 #     - patch
-#     - rule_5.3.2
+#     - centos7cis_rule_5.3.2
 #     - low
 # END # OLD #
 
@@ -947,7 +947,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.3
+    - centos7cis_rule_5.3.3
     - low
 
 - name: 'SCORED | 5.3.3 | Ensure password reuse is limited'
@@ -962,7 +962,7 @@
   tags:
     - level1
     - patch
-    - rule_5.3.3
+    - centos7cis_rule_5.3.3
     - low
 
 # START # DEBUG STATEMENTS #
@@ -973,7 +973,7 @@
 #   tags:
 #     - level1
 #     - patch
-#     - rule_5.3.3
+#     - centos7cis_rule_5.3.3
 #     - low
 
 
@@ -984,7 +984,7 @@
 #   tags:
 #     - level1
 #     - patch
-#     - rule_5.3.3
+#     - centos7cis_rule_5.3.3
 #     - low
 # END # DEBUG STATEMENTS #
 
@@ -1006,7 +1006,7 @@
   tags:
      - level1
      - patch
-     - rule_5.3.3
+     - centos7cis_rule_5.3.3
      - low
 
 - name: 'SCORED | 5.3.3 | Ensure password reuse is limited'
@@ -1027,7 +1027,7 @@
   tags:
      - level1
      - patch
-     - rule_5.3.3
+     - centos7cis_rule_5.3.3
      - low
 
 # END # password sufficient pam_unix.so remember=5 #
@@ -1047,7 +1047,7 @@
 #   tags:
 #     - level1
 #     - patch
-#     - rule_5.3.3
+#     - centos7cis_rule_5.3.3
 #     - low
 
 # - name: "SCORED | 5.3.3 | Ensure password reuse is limited | system-auth"
@@ -1064,7 +1064,7 @@
 #   tags:
 #     - level1
 #     - patch
-#     - rule_5.3.3
+#     - centos7cis_rule_5.3.3
 #     - low
 
 # OLD # END #
@@ -1088,7 +1088,7 @@
   tags:
      - level1
      - patch
-     - rule_5.3.4
+     - centos7cis_rule_5.3.4
 
 # END # password sufficient pam_unix.so sha512 #
 
@@ -1100,7 +1100,7 @@
 #   tags:
 #     - level1
 #     - patch
-#     - rule_5.3.4
+#     - centos7cis_rule_5.3.4
 # OLD # END #
 
 - name: "SCORED | 5.4.1.1 | PATCH | Ensure password expiration is 365 days or less"
@@ -1115,7 +1115,7 @@
   tags:
     - level1
     - patch
-    - rule_5.4.1.1
+    - centos7cis_rule_5.4.1.1
 
 - name: "SCORED | 5.4.1.2 | PATCH | Ensure minimum days between password changes is 7 or more"
   lineinfile:
@@ -1129,7 +1129,7 @@
   tags:
     - level1
     - patch
-    - rule_5.4.1.2
+    - centos7cis_rule_5.4.1.2
 
 - name: "SCORED | 5.4.1.3 | PATCH | Ensure password expiration warning days is 7 or more"
   lineinfile:
@@ -1142,7 +1142,7 @@
   tags:
     - level1
     - patch
-    - rule_5.4.1.3
+    - centos7cis_rule_5.4.1.3
 
 - name: "SCORED | 5.4.1.4 | PATCH | Ensure inactive password lock is 30 days or less"
   command: useradd -D -f 30
@@ -1151,7 +1151,7 @@
   tags:
     - level1
     - patch
-    - rule_5.4.1.4
+    - centos7cis_rule_5.4.1.4
     - low
 
 - name: "SCORED | 5.4.1.5 | Ensure all users last password change date is in the past (Scored)"
@@ -1162,7 +1162,7 @@
   tags:
     - level1
     - patch
-    - rule_5.4.1.5
+    - centos7cis_rule_5.4.1.5
     - low
 
 - name: "SCORED | 5.4.2 | PATCH | Ensure system accounts are non-login"
@@ -1179,7 +1179,7 @@
   tags:
     - level1
     - patch
-    - rule_5.4.2
+    - centos7cis_rule_5.4.2
     - low
 
 - name: "SCORED | 5.4.2 | PATCH | Ensure system accounts are non-login"
@@ -1192,7 +1192,7 @@
   tags:
     - level1
     - patch
-    - rule_5.4.2
+    - centos7cis_rule_5.4.2
     - low
 
 - name: "SCORED | 5.4.2 | PATCH | Ensure system accounts are non-login"
@@ -1208,7 +1208,7 @@
   tags:
     - level1
     - patch
-    - rule_5.4.2
+    - centos7cis_rule_5.4.2
     - low
 
 - name: "SCORED | 5.4.3 | PATCH | Ensure default group for the root account is GID 0"
@@ -1218,7 +1218,7 @@
   tags:
     - level1
     - patch
-    - rule_5.4.3
+    - centos7cis_rule_5.4.3
 
 - name: "SCORED | 5.4.4 | PATCH | Ensure default user umask is 027 or more restrictive"
   lineinfile:
@@ -1232,7 +1232,7 @@
   tags:
     - level1
     - patch
-    - rule_5.4.4
+    - centos7cis_rule_5.4.4
     - low
 
 - name: "SCORED | 5.4.4 | PATCH | Ensure default user umask is 027 or more restrictive"
@@ -1247,7 +1247,7 @@
   tags:
     - level1
     - patch
-    - rule_5.4.4
+    - centos7cis_rule_5.4.4
     - low
 
 - name: "SCORED | 5.4.4 | PATCH | Ensure default user umask is 027 or more restrictive"
@@ -1262,7 +1262,7 @@
   tags:
     - level1
     - patch
-    - rule_5.4.4
+    - centos7cis_rule_5.4.4
     - low
 
 - name: "SCORED | 5.4.4 | PATCH | Ensure default user umask is 027 or more restrictive"
@@ -1280,7 +1280,7 @@
   tags:
     - level1
     - patch
-    - rule_5.4.4
+    - centos7cis_rule_5.4.4
     - low
 
 - name: "SCORED | 5.4.5 | PATCH | Ensure default user shell timeout is 900 seconds or less"
@@ -1294,7 +1294,7 @@
   tags:
     - level2
     - patch
-    - rule_5.4.5
+    - centos7cis_rule_5.4.5
     - low
 
 - name: "SCORED | 5.4.5 | PATCH | Ensure default user shell timeout is 900 seconds or less"
@@ -1308,7 +1308,7 @@
   tags:
     - level2
     - patch
-    - rule_5.4.5
+    - centos7cis_rule_5.4.5
     - low
 
 - name: "SCORED | 5.6 | PATCH | Ensure access to the su command is restricted"
@@ -1323,7 +1323,7 @@
   tags:
     - level1
     - patch
-    - rule_5.6
+    - centos7cis_rule_5.6
     - low
 
 - name: "SCORED | 5.6 | PATCH | Ensure access to the su command is restricted"
@@ -1337,4 +1337,4 @@
   tags:
     - level1
     - patch
-    - rule_5.6
+    - centos7cis_rule_5.6

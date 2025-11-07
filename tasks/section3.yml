@@ -16,7 +16,7 @@
     - sysctl
     - scored
     - patch
-    - rule_3.1.1
+    - centos7cis_rule_3.1.1
 
 - name: "SCORED | 3.1.2 | PATCH | Ensure packet redirect sending is disabled"
   sysctl:
@@ -39,7 +39,7 @@
     - sysctl
     - scored
     - patch
-    - rule_3.1.2
+    - centos7cis_rule_3.1.2
 - name: "SCORED | 3.2.1 | PATCH | Ensure source routed packets are not accepted"
   sysctl:
     name: '{{ item.name }}'
@@ -59,7 +59,7 @@
     - level1
     - sysctl
     - patch
-    - rule_3.2.1
+    - centos7cis_rule_3.2.1
 
 - name: "SCORED | 3.2.2 | PATCH | Ensure ICMP redirects are not accepted"
   sysctl:
@@ -81,7 +81,7 @@
     - sysctl
     - scored
     - patch
-    - rule_3.2.2
+    - centos7cis_rule_3.2.2
 
 - name: "SCORED | 3.2.3 | PATCH | Ensure secure ICMP redirects are not accepted"
   sysctl:
@@ -103,7 +103,7 @@
     - sysctl
     - scored
     - patch
-    - rule_3.2.3
+    - centos7cis_rule_3.2.3
 
 - name: "SCORED | 3.2.4 | PATCH | Ensure suspicious packets are logged"
   sysctl:
@@ -125,7 +125,7 @@
     - sysctl
     - scored
     - patch
-    - rule_3.2.4
+    - centos7cis_rule_3.2.4
 
 - name: "SCORED | 3.2.5 | PATCH | Ensure broadcast ICMP requests are ignored"
   sysctl:
@@ -144,7 +144,7 @@
     - sysctl
     - patch
     - scored
-    - rule_3.2.5
+    - centos7cis_rule_3.2.5
 
 - name: "SCORED | 3.2.6 | PATCH | Ensure bogus ICMP responses are ignored"
   sysctl:
@@ -163,7 +163,7 @@
     - sysctl
     - patch
     - scored
-    - rule_3.2.6
+    - centos7cis_rule_3.2.6
 
 - name: "SCORED | 3.2.7 | PATCH | Ensure Reverse Path Filtering is enabled"
   sysctl:
@@ -185,7 +185,7 @@
     - sysctl
     - patch
     - scored
-    - rule_3.2.7
+    - centos7cis_rule_3.2.7
 
 - name: "SCORED | 3.2.8 | PATCH | Ensure TCP SYN Cookies is enabled"
   sysctl:
@@ -204,7 +204,7 @@
     - sysctl
     - patch
     - scored
-    - rule_3.2.8
+    - centos7cis_rule_3.2.8
 
 - name: "SCORED | 3.3.1 | PATCH | Ensure IPv6 router advertisements are not accepted"
   sysctl:
@@ -228,7 +228,7 @@
     - sysctl
     - patch
     - scored
-    - rule_3.3.1
+    - centos7cis_rule_3.3.1
 
 - name: "SCORED | 3.3.2 | PATCH | Ensure IPv6 redirects are not accepted"
   sysctl:
@@ -252,7 +252,7 @@
     - sysctl
     - patch
     - scored
-    - rule_3.3.2
+    - centos7cis_rule_3.3.2
 
 - name: "NOTSCORED | 3.3.3 | PATCH | Ensure IPv6 is disabled"
   lineinfile:
@@ -267,7 +267,7 @@
   tags:
     - level1
     - patch
-    - rule_3.3.3
+    - centos7cis_rule_3.3.3
 
 - name: "SCORED | 3.4.1 | PATCH | Ensure TCP Wrappers is installed"
   yum:
@@ -278,7 +278,7 @@
   tags:
     - level1
     - patch
-    - rule_3.4.1
+    - centos7cis_rule_3.4.1
 
 - name: "SCORED | 3.4.2 | PATCH | Ensure /etc/hosts.allow is configured"
   template:
@@ -292,7 +292,7 @@
   tags:
     - level1
     - patch
-    - rule_3.4.2
+    - centos7cis_rule_3.4.2
 
 - name: "SCORED | 3.4.3 | PATCH | Ensure /etc/hosts.deny is configured"
   lineinfile:
@@ -306,7 +306,7 @@
   tags:
     - level1
     - patch
-    - rule_3.4.3
+    - centos7cis_rule_3.4.3
 
 - name: "SCORED | 3.4.4 | PATCH | Ensure permissions on /etc/hosts.allow are configured"
   file:
@@ -319,7 +319,7 @@
   tags:
     - level1
     - patch
-    - rule_3.4.4
+    - centos7cis_rule_3.4.4
 
 - name: "SCORED | 3.4.5 | PATCH | Ensure permissions on /etc/hosts.deny are 644"
   file:
@@ -332,7 +332,7 @@
   tags:
     - level1
     - patch
-    - rule_3.4.5
+    - centos7cis_rule_3.4.5
 
 - name: "NOTSCORED | 3.5.1 | PATCH | Ensure DCCP is disabled"
   lineinfile:
@@ -345,7 +345,7 @@
   tags:
     - level1
     - patch
-    - rule_3.5.1
+    - centos7cis_rule_3.5.1
 
 - name: "NOTSCORED | 3.5.2 | PATCH | Ensure SCTP is disabled"
   lineinfile:
@@ -358,7 +358,7 @@
   tags:
     - level1
     - patch
-    - rule_3.5.2
+    - centos7cis_rule_3.5.2
 
 - name: "NOTSCORED | 3.5.3 | PATCH | Ensure RDS is disabled"
   lineinfile:
@@ -371,7 +371,7 @@
   tags:
     - level1
     - patch
-    - rule_3.5.3
+    - centos7cis_rule_3.5.3
 
 - name: "NOTSCORED | 3.5.4 | PATCH | Ensure TIPC is disabled"
   lineinfile:
@@ -384,7 +384,7 @@
   tags:
     - level1
     - patch
-    - rule_3.5.4
+    - centos7cis_rule_3.5.4
 
 - name: "SCORED | 3.6 | PATCH | Ensure firewalld is installed and started | CUSTOM"
   yum:
@@ -396,7 +396,7 @@
   tags:
     - level1
     - patch
-    - rule_3.6
+    - centos7cis_rule_3.6
 
 - name: "SCORED | 3.6 | PATCH | Ensure firewalld is installed and started | CUSTOM"
   service:
@@ -409,7 +409,7 @@
   tags:
     - level1
     - patch
-    - rule_3.6
+    - centos7cis_rule_3.6
 
 - name: "NOTSCORED | 3.6.4 | PATCH | Ensure outbound and established connections are configured -UDP"
   iptables:
@@ -426,7 +426,7 @@
   tags:
     - level1
     - patch
-    - rule_3.6.4
+    - centos7cis_rule_3.6.4
     - low
 
 - name: "NOTSCORED | 3.6.4 | PATCH | Ensure outbound and established connections are configured -ICMP"
@@ -444,7 +444,7 @@
   tags:
     - level1
     - patch
-    - rule_3.6.4
+    - centos7cis_rule_3.6.4
     - low
 
 - name: "SCORED | 3.6.5 | PATCH | Ensure firewall rules exist for all open ports"
@@ -457,7 +457,7 @@
     - level1
     - patch
     - scored
-    - rule_3.6.5
+    - centos7cis_rule_3.6.5
     - low
 
 - name: "NOTSCORED | 3.7 | PATCH | Ensure wireless interfaces are disabled"
@@ -469,4 +469,4 @@
     - level1
     - level2
     - patch
-    - rule_3.7
+    - centos7cis_rule_3.7

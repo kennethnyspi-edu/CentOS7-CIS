@@ -10,7 +10,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.1.1
+      - centos7cis_rule_4.1.1.1
 
 - name: "SCORED | 4.1.1.2 | PATCH | Ensure system is disabled when audit logs are full"
   lineinfile:
@@ -24,7 +24,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.1.2
+      - centos7cis_rule_4.1.1.2
 
 - name: "SCORED | 4.1.1.3 | PATCH | Ensure audit logs are not automatically deleted"
   lineinfile:
@@ -38,7 +38,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.1.3
+      - centos7cis_rule_4.1.1.3
 
 - name: "SCORED | 4.1.2 | PATCH | Ensure auditd service is enabled"
   service:
@@ -52,7 +52,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.2
+      - centos7cis_rule_4.1.2
 
 - name: "SCORED | 4.1.3 | PATCH | Ensure auditing for processes that start prior to auditd is enabled"
   replace:
@@ -68,7 +68,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.3
+      - centos7cis_rule_4.1.3
 
 - name: "SCORED | 4.1.4 | PATCH | Ensure events that modify date and time information are collected"
   command: /bin/true
@@ -79,7 +79,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.4
+      - centos7cis_rule_4.1.4
 
 - name: "SCORED | 4.1.5 | PATCH | Ensure events that modify user/group information are collected"
   command: /bin/true
@@ -90,7 +90,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.5
+      - centos7cis_rule_4.1.5
 
 - name: "SCORED | 4.1.6 | PATCH | Ensure events that modify the system's network environment are collected"
   command: /bin/true
@@ -101,7 +101,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.6
+      - centos7cis_rule_4.1.6
 
 - name: "SCORED | 4.1.7 | PATCH | Ensure events that modify the system's Mandatory Access Controls are collected"
   command: /bin/true
@@ -112,7 +112,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.7
+      - centos7cis_rule_4.1.7
 
 - name: "SCORED | 4.1.8 | PATCH | Ensure login and logout events are collected"
   command: /bin/true
@@ -123,7 +123,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.8
+      - centos7cis_rule_4.1.8
 
 - name: "SCORED | 4.1.9 | PATCH | Ensure session initiation information is collected"
   command: /bin/true
@@ -134,7 +134,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.9
+      - centos7cis_rule_4.1.9
 
 - name: "SCORED | 4.1.10 | PATCH | Ensure discretionary access control permission modification events are collected"
   command: /bin/true
@@ -145,7 +145,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.10
+      - centos7cis_rule_4.1.10
 
 - name: "SCORED | 4.1.11 | PATCH | Ensure unsuccessful unauthorized file access attempts are collected"
   command: /bin/true
@@ -156,7 +156,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.11
+      - centos7cis_rule_4.1.11
 
 - name: "SCORED | 4.1.12 | PATCH | Ensure use of privileged commands is collected"
   command: /bin/true
@@ -167,7 +167,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.12
+      - centos7cis_rule_4.1.12
 
 - name: "SCORED | 4.1.13 | PATCH | Ensure successful file system mounts are collected"
   lineinfile:
@@ -180,7 +180,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.13
+      - centos7cis_rule_4.1.13
 
 - name: "SCORED | 4.1.13 | PATCH | Ensure successful file system mounts are collected"
   lineinfile:
@@ -193,7 +193,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.13
+      - centos7cis_rule_4.1.13
 
 - name: "SCORED | 4.1.13 | PATCH | Ensure successful file system mounts are collected"
   lineinfile:
@@ -206,7 +206,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.13
+      - centos7cis_rule_4.1.13
 
 - name: "SCORED | 4.1.14 | PATCH | Ensure file deletion events by users are collected"
   command: /bin/true
@@ -217,7 +217,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.14
+      - centos7cis_rule_4.1.14
 
 - name: "SCORED | 4.1.15 | PATCH | Ensure changes to system administration scope (sudoers) is collected"
   lineinfile:
@@ -230,7 +230,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.15
+      - centos7cis_rule_4.1.15
 
 - name: "SCORED | 4.1.15 | PATCH | Ensure changes to system administration scope (sudoers) is collected"
   lineinfile:
@@ -243,7 +243,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.15
+      - centos7cis_rule_4.1.15
 
 - name: "SCORED | 4.1.15 | PATCH | Ensure changes to system administration scope (sudoers) is collected"
   lineinfile:
@@ -256,7 +256,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.15
+      - centos7cis_rule_4.1.15
 
 - name: "SCORED | 4.1.16 | PATCH | Ensure system administrator actions (sudolog) are collected"
   command: /bin/true
@@ -267,7 +267,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.16
+      - centos7cis_rule_4.1.16
 
 - name: "SCORED | 4.1.17 | PATCH | Ensure kernel module loading and unloading is collected"
   command: /bin/true
@@ -278,7 +278,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.17
+      - centos7cis_rule_4.1.17
 
 - name: "SCORED | 4.1.18 | PATCH | Ensure the audit configuration is immutable"
   command: /bin/true
@@ -289,7 +289,7 @@
       - level2
       - auditd
       - patch
-      - rule_4.1.18
+      - centos7cis_rule_4.1.18
 
 - name: "SCORED | 4.2.1.1 | PATCH | Ensure rsyslog Service is enabled"
   systemd:
@@ -302,7 +302,7 @@
   tags:
       - level2
       - patch
-      - rule_4.2.1.1
+      - centos7cis_rule_4.2.1.1
 
 - name: "NOTSCORED | 4.2.1.2 | PATCH | Ensure logging is configured"
   command: /bin/true
@@ -315,7 +315,7 @@
   tags:
       - level1
       - patch
-      - rule_4.2.1.2
+      - centos7cis_rule_4.2.1.2
 
 - name: "SCORED | 4.2.1.3 | PATCH | Ensure rsyslog default file permissions configured"
   lineinfile:
@@ -330,7 +330,7 @@
   tags:
       - level1
       - patch
-      - rule_4.2.1.3
+      - centos7cis_rule_4.2.1.3
 
 - name: "SCORED | 4.2.1.4 | PATCH | Ensure rsyslog is configured to send logs to a remote log host"
   lineinfile:
@@ -344,7 +344,7 @@
   tags:
       - level1
       - patch
-      - rule_4.2.1.4
+      - centos7cis_rule_4.2.1.4
 
 - name: "NOTSCORED | 4.2.1.5 | PATCH | Ensure remote rsyslog messages are only accepted on designated log hosts. | NON-LOG SERVER"
   lineinfile:
@@ -361,7 +361,7 @@
   tags:
       - level1
       - patch
-      - rule_4.2.1.5
+      - centos7cis_rule_4.2.1.5
 
 - name: "NOTSCORED | 4.2.1.5 | PATCH | Ensure remote rsyslog messages are only accepted on designated log hosts. | NON-LOG SERVER"
   lineinfile:
@@ -378,7 +378,7 @@
   tags:
       - level1
       - patch
-      - rule_4.2.1.5
+      - centos7cis_rule_4.2.1.5
 
 - name: "NOTSCORED | 4.2.1.5 | PATCH | Ensure remote rsyslog messages are only accepted on designated log hosts. | LOG SERVER"
   lineinfile:
@@ -395,7 +395,7 @@
   tags:
       - level1
       - patch
-      - rule_4.2.1.5
+      - centos7cis_rule_4.2.1.5
 
 - name: "NOTSCORED | 4.2.1.5 | PATCH | Ensure remote rsyslog messages are only accepted on designated log hosts. | LOG SERVER"
   lineinfile:
@@ -412,7 +412,7 @@
   tags:
       - level1
       - patch
-      - rule_4.2.1.5
+      - centos7cis_rule_4.2.1.5
 
 - name: "SCORED | 4.2.2.1 | PATCH | Ensure syslog-ng service is enabled"
   systemd:
@@ -425,7 +425,7 @@
   tags:
       - level1
       - patch
-      - rule_4.2.2.1
+      - centos7cis_rule_4.2.2.1
 
 - name: "NOTSCORED | 4.2.2.2 | PATCH | Ensure logging is configured"
   command: /bin/true
@@ -438,7 +438,7 @@
   tags:
       - level1
       - patch
-      - rule_4.2.2.2
+      - centos7cis_rule_4.2.2.2
 
 - name: "SCORED | 4.2.2.3 | PATCH | Ensure syslog-ng default file permissions configured"
   lineinfile:
@@ -455,7 +455,7 @@
   tags:
       - level1
       - patch
-      - rule_4.2.2.3
+      - centos7cis_rule_4.2.2.3
 
 - name: "NOTSCORED | 4.2.2.4 | PATCH | Ensure syslog-ng is configured to send logs to a remote log host"
   command: /bin/true
@@ -469,7 +469,7 @@
   tags:
       - level1
       - patch
-      - rule_4.2.2.4
+      - centos7cis_rule_4.2.2.4
 
 - name: "NOTSCORED | 4.2.2.5 | PATCH | Ensure remote syslog-ng messages are only accepted on designated log hosts"
   command: /bin/true
@@ -483,7 +483,7 @@
   tags:
       - level1
       - patch
-      - rule_4.2.2.5
+      - centos7cis_rule_4.2.2.5
 
 - name: "SCORED | 4.2.3 | PATCH | Ensure rsyslog or syslog-ng is installed"
   yum:
@@ -496,7 +496,7 @@
       - level1
       - low
       - patch
-      - rule_4.2.3
+      - centos7cis_rule_4.2.3
 
 - name: "SCORED | 4.2.3 | PATCH | Ensure rsyslog or syslog-ng is installed"
   yum:
@@ -509,7 +509,7 @@
       - level1
       - low
       - patch
-      - rule_4.2.3
+      - centos7cis_rule_4.2.3
 
 - name: "SCORED | 4.2.4 | PATCH | Ensure permissions on all logfiles are configured"
   command: find /var/log -type f -exec chmod g-wx,o-rwx {} +
@@ -518,7 +518,7 @@
   tags:
       - level1
       - patch
-      - rule_4.2.4
+      - centos7cis_rule_4.2.4
 
 - name: "NOTSCORED | 4.3 | PATCH | Ensure logrotate is configured"
   lineinfile:
@@ -531,4 +531,4 @@
   tags:
       - level1
       - patch
-      - rule_4.3
+      - centos7cis_rule_4.3

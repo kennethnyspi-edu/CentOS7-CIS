@@ -7,7 +7,7 @@
     - scored
     - services
     - patch
-    - rule_2.1.1
+    - centos7cis_rule_2.1.1
 
 - name: "SCORED | 2.1.1 | PATCH | Ensure chargen services are not enabled | chargen-dgram"
   command: chkconfig chargen-dgram off
@@ -21,7 +21,7 @@
     - scored
     - services
     - patch
-    - rule_2.1.1
+    - centos7cis_rule_2.1.1
 
 - name: "SCORED | 2.1.1 | PATCH | Ensure chargen services are not enabled | chargen-stream"
   stat:
@@ -32,7 +32,7 @@
     - scored
     - services
     - patch
-    - rule_2.1.1
+    - centos7cis_rule_2.1.1
 
 - name: "SCORED | 2.1.1 | PATCH | Ensure chargen services are not enabled | chargen-stream"
   command: chkconfig chargen-stream off
@@ -46,7 +46,7 @@
     - scored
     - services
     - patch
-    - rule_2.1.1
+    - centos7cis_rule_2.1.1
 
 - name: "SCORED | 2.1.2 | PATCH | Ensure daytime services are not enabled | daytime-dgram"
   stat:
@@ -57,7 +57,7 @@
     - low
     - scored
     - patch
-    - rule_2.1.2
+    - centos7cis_rule_2.1.2
 
 - name: "SCORED | 2.1.2 | PATCH | Ensure daytime services are not enabled | daytime-dgram"
   command: chkconfig daytime-dgram off
@@ -70,7 +70,7 @@
     - level1
     - scored
     - patch
-    - rule_2.1.2
+    - centos7cis_rule_2.1.2
 
 - name: "SCORED | 2.1.2 | PATCH | Ensure daytime services are not enabled | daytime-stream"
   stat:
@@ -81,7 +81,7 @@
     - low
     - scored
     - patch
-    - rule_2.1.2
+    - centos7cis_rule_2.1.2
 
 - name: "SCORED | 2.1.2 | PATCH | Ensure daytime services are not enabled | daytime-stream"
   command: chkconfig daytime-stream off
@@ -94,7 +94,7 @@
     - level1
     - scored
     - patch
-    - rule_2.1.2
+    - centos7cis_rule_2.1.2
 
 - name: "SCORED | 2.1.3 | PATCH | Ensure discard services are not enabled | discard-dgram"
   stat:
@@ -104,7 +104,7 @@
     - level1
     - scored
     - patch
-    - rule_2.1.3
+    - centos7cis_rule_2.1.3
 
 - name: "SCORED | 2.1.3 | PATCH | Ensure discard services are not enabled | discard-dgram"
   command: chkconfig discard-dgram off
@@ -117,7 +117,7 @@
     - level1
     - scored
     - patch
-    - rule_2.1.3
+    - centos7cis_rule_2.1.3
 
 - name: "SCORED | 2.1.3 | PATCH | Ensure discard services are not enabled | discard-stream"
   stat:
@@ -128,7 +128,7 @@
     - low
     - scored
     - patch
-    - rule_2.1.3
+    - centos7cis_rule_2.1.3
 
 - name: "SCORED | 2.1.3 | PATCH | Ensure discard services are not enabled | discard-stream"
   command: chkconfig discard-stream off
@@ -141,7 +141,7 @@
     - level1
     - scored
     - patch
-    - rule_2.1.3
+    - centos7cis_rule_2.1.3
 
 - name: "SCORED | 2.1.4 | PATCH | Ensure echo services are not enabled | echo-dgram"
   stat:
@@ -152,7 +152,7 @@
     - low
     - scored
     - patch
-    - rule_2.1.4
+    - centos7cis_rule_2.1.4
 
 - name: "SCORED | 2.1.4 | PATCH | Ensure echo services are not enabled | echo-dgram"
   command: chkconfig echo-dgram off
@@ -165,7 +165,7 @@
     - level1
     - scored
     - patch
-    - rule_2.1.4
+    - centos7cis_rule_2.1.4
 
 - name: "SCORED | 2.1.4 | PATCH | Ensure echo services are not enabled | echo-stream"
   stat:
@@ -175,7 +175,7 @@
     - level1
     - scored
     - patch
-    - rule_2.1.4
+    - centos7cis_rule_2.1.4
 
 - name: "SCORED | 2.1.4 | PATCH | Ensure echo services are not enabled | echo-stream"
   command: chkconfig echo-stream off
@@ -188,7 +188,7 @@
     - level1
     - scored
     - patch
-    - rule_2.1.4
+    - centos7cis_rule_2.1.4
 
 - name: "SCORED | 2.1.5 | PATCH | Ensure time services are not enabled | time-dgram"
   stat:
@@ -199,7 +199,7 @@
     - low
     - scored
     - patch
-    - rule_2.1.5
+    - centos7cis_rule_2.1.5
 
 - name: "SCORED | 2.1.5 | PATCH | Ensure time services are not enabled | time-dgram"
   command: chkconfig time-dgram off
@@ -212,7 +212,7 @@
     - level1
     - scored
     - patch
-    - rule_2.1.5
+    - centos7cis_rule_2.1.5
 
 - name: "SCORED | 2.1.5 | PATCH | Ensure time services are not enabled | time-stream"
   stat:
@@ -223,7 +223,7 @@
     - low
     - scored
     - patch
-    - rule_2.1.5
+    - centos7cis_rule_2.1.5
 
 - name: "SCORED | 2.1.5 | PATCH | Ensure time services are not enabled | time-stream"
   command: chkconfig time-stream off
@@ -236,7 +236,7 @@
     - level1
     - scored
     - patch
-    - rule_2.1.5
+    - centos7cis_rule_2.1.5
 
 - name: "SCORED | 2.1.6 | PATCH | Ensure tftp server is not enabled"
   stat:
@@ -247,7 +247,7 @@
     - low
     - scored
     - patch
-    - rule_2.1.6
+    - centos7cis_rule_2.1.6
 
 - name: "SCORED | 2.1.6 | PATCH | Ensure tftp server is not enabled"
   command: chkconfig tftp off
@@ -260,7 +260,7 @@
     - level1
     - scored
     - patch
-    - rule_2.1.6
+    - centos7cis_rule_2.1.6
 
 - name: "SCORED | 2.1.7 | PATCH | Ensure xinetd is not enabled"
   service:
@@ -275,7 +275,7 @@
     - level1
     - patch
     - scored
-    - rule_2.1.7
+    - centos7cis_rule_2.1.7
 
 - name: "NOTSCORED | 2.2.1.1 | PATCH | Ensure time synchronization is in use - service install"
   yum:
@@ -286,7 +286,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.1.1
+    - centos7cis_rule_2.2.1.1
 
 - name: "NOTSCORED | 2.2.1.1 | PATCH | Ensure time synchronization is in use - service start"
   service:
@@ -299,7 +299,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.1.1
+    - centos7cis_rule_2.2.1.1
 
 - name: "NOTSCORED | 2.2.1.1 | PATCH | Ensure time synchronization is in use - service stop ntp"
   service:
@@ -313,7 +313,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.1.1
+    - centos7cis_rule_2.2.1.1
 
 - name: "NOTSCORED | 2.2.1.1 | PATCH | Ensure time synchronization is in use - service stop chrony"
   service:
@@ -328,7 +328,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.1.1
+    - centos7cis_rule_2.2.1.1
 
 - name: "SCORED | 2.2.1.2 | PATCH | Ensure ntp is configured | modify /etc/ntp.conf"
   template:
@@ -344,7 +344,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.1.2
+    - centos7cis_rule_2.2.1.2
 
 - name: "SCORED | 2.2.1.2 | PATCH | Ensure ntp is configured | modify /etc/sysconfig/ntpd"
   lineinfile:
@@ -358,7 +358,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.1.2
+    - centos7cis_rule_2.2.1.2
 
 - name: "SCORED | 2.2.1.2 | PATCH | Ensure ntp is configured | modify /usr/lib/systemd/system/ntpd.service"
   lineinfile:
@@ -372,7 +372,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.1.2
+    - centos7cis_rule_2.2.1.2
 
 - name: "SCORED | 2.2.1.3 | PATCH | Ensure chrony is configured"
   lineinfile:
@@ -389,7 +389,7 @@
   tags:
       - level1
       - patch
-      - rule_2.2.1.3
+      - centos7cis_rule_2.2.1.3
 
 #- name: "SCORED | 2.2.1.3 | PATCH | Ensure chrony is configured"
 #  template:
@@ -405,7 +405,7 @@
 #  tags:
 #    - level1
 #    - patch
-#    - rule_2.2.1.3
+#    - centos7cis_rule_2.2.1.3
 
 - name: "SCORED | 2.2.1.3 | PATCH | Ensure chrony is configured | modify /etc/sysconfig/chronyd"
   template:
@@ -421,7 +421,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.1.3
+    - centos7cis_rule_2.2.1.3
     - low
 
 - name: "SCORED | 2.2.1.3 | PATCH | Ensure chrony is configured | modify /etc/sysconfig/chronyd"
@@ -438,7 +438,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.1.3
+    - centos7cis_rule_2.2.1.3
     - low
 
 - name: "SCORED | 2.2.2 | PATCH | Ensure X Window System is not installed"
@@ -457,7 +457,7 @@
     - scored
     - xwindows
     - patch
-    - rule_2.2.2
+    - centos7cis_rule_2.2.2
     - disable_service_checks
 
 - name: "SCORED | 2.2.3 | PATCH | Ensure Avahi Server is not enabled"
@@ -475,7 +475,7 @@
     - avahi
     - services
     - patch
-    - rule_2.2.3
+    - centos7cis_rule_2.2.3
     - disable_service_checks
 
 - name: "SCORED | 2.2.4 | PATCH | Ensure CUPS is not enabled"
@@ -493,7 +493,7 @@
     - cups
     - services
     - patch
-    - rule_2.2.4
+    - centos7cis_rule_2.2.4
     - disable_service_checks
 
 - name: "SCORED | 2.2.5 | PATCH | Ensure DHCP Server is not enabled"
@@ -511,7 +511,7 @@
     - dhcp
     - services
     - patch
-    - rule_2.2.5
+    - centos7cis_rule_2.2.5
     - disable_service_checks
 
 - name: "SCORED | 2.2.6 | PATCH | Ensure LDAP server is not enabled"
@@ -529,7 +529,7 @@
     - ldap
     - services
     - patch
-    - rule_2.2.6
+    - centos7cis_rule_2.2.6
     - disable_service_checks
 
 - name: "SCORED | 2.2.7 | PATCH | Ensure NFS and RPC are not enabled"
@@ -548,7 +548,7 @@
     - rpc
     - services
     - patch
-    - rule_2.2.7
+    - centos7cis_rule_2.2.7
     - disable_service_checks
 
 - name: "SCORED | 2.2.7 | PATCH | Ensure NFS and RPC are not enabled"
@@ -567,7 +567,7 @@
     - rpc
     - services
     - patch
-    - rule_2.2.7
+    - centos7cis_rule_2.2.7
     - disable_service_checks
 
 - name: "SCORED | 2.2.8 | PATCH | Ensure DNS Server is not enabled"
@@ -582,7 +582,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.8
+    - centos7cis_rule_2.2.8
     - disable_service_checks
 
 - name: "SCORED | 2.2.9 | PATCH | Ensure FTP Server is not enabled"
@@ -597,7 +597,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.9
+    - centos7cis_rule_2.2.9
     - disable_service_checks
 
 - name: "SCORED | 2.2.10 | PATCH | Ensure HTTP server is not enabled"
@@ -612,7 +612,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.10
+    - centos7cis_rule_2.2.10
     - disable_service_checks
 
 - name: "SCORED | 2.2.11 | PATCH | Ensure IMAP and POP3 server is not enabled"
@@ -627,7 +627,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.11
+    - centos7cis_rule_2.2.11
     - disable_service_checks
 
 - name: "SCORED | 2.2.12 | PATCH | Ensure Samba is not enabled"
@@ -642,7 +642,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.12
+    - centos7cis_rule_2.2.12
     - disable_service_checks
 
 - name: "SCORED | 2.2.13 | PATCH | Ensure HTTP Proxy Server is not enabled"
@@ -657,7 +657,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.13
+    - centos7cis_rule_2.2.13
     - disable_service_checks
 
 - name: "SCORED | 2.2.14 | PATCH | Ensure SNMP Server is not enabled"
@@ -672,7 +672,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.14
+    - centos7cis_rule_2.2.14
     - disable_service_checks
 
 - name: "SCORED | 2.2.15 | PATCH | Ensure mail transfer agent is configured for local-only mode"
@@ -688,7 +688,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.15
+    - centos7cis_rule_2.2.15
 
 - name: "SCORED | 2.2.16 | PATCH | Ensure NIS Server is not enabled"
   service:
@@ -702,7 +702,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.16
+    - centos7cis_rule_2.2.16
     - disable_service_checks
 
 - name: "SCORED | 2.2.17 | PATCH | Ensure rsh server is not enabled | rsh"
@@ -717,7 +717,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.17
+    - centos7cis_rule_2.2.17
     - disable_service_checks
 
 - name: "SCORED | 2.2.17 | PATCH | Ensure rsh server is not enabled | rlogin"
@@ -732,7 +732,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.17
+    - centos7cis_rule_2.2.17
     - disable_service_checks
 
 - name: "SCORED | 2.2.17 | PATCH | Ensure rsh server is not enabled | rexec"
@@ -747,7 +747,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.17
+    - centos7cis_rule_2.2.17
     - disable_service_checks
 
 - name: "SCORED | 2.2.18 | PATCH | Ensure telnet server is not enabled"
@@ -762,7 +762,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.18
+    - centos7cis_rule_2.2.18
     - disable_service_checks
 
 - name: "SCORED | 2.2.19 | PATCH | Ensure tftp server is not enabled"
@@ -780,7 +780,7 @@
     - insecure_services
     - tftp
     - patch
-    - rule_2.2.19
+    - centos7cis_rule_2.2.19
     - disable_service_checks
 
 - name: "SCORED | 2.2.20 | PATCH | Ensure rsync service is not enabled "
@@ -795,7 +795,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.20
+    - centos7cis_rule_2.2.20
     - disable_service_check
 
 - name: "SCORED | 2.2.21 | PATCH | Ensure talk server is not enabled"
@@ -810,7 +810,7 @@
   tags:
     - level1
     - patch
-    - rule_2.2.21
+    - centos7cis_rule_2.2.21
     - disable_service_checks
 
 - name: "SCORED | 2.3.1 | PATCH | Ensure NIS Client is not installed"
@@ -824,7 +824,7 @@
   tags:
     - level1
     - patch
-    - rule_2.3.1
+    - centos7cis_rule_2.3.1
     - disable_service_checks
 
 - name: "SCORED | 2.3.2 | PATCH | Ensure rsh client is not installed"
@@ -838,7 +838,7 @@
   tags:
     - level1
     - patch
-    - rule_2.3.2
+    - centos7cis_rule_2.3.2
     - disable_service_checks
 
 - name: "SCORED | 2.3.3 | PATCH | Ensure talk client is not installed"
@@ -852,7 +852,7 @@
   tags:
     - level1
     - patch
-    - rule_2.3.3
+    - centos7cis_rule_2.3.3
     - disable_service_checks
 
 - name: "SCORED | 2.3.4 | PATCH | Ensure telnet client is not installed"
@@ -866,7 +866,7 @@
   tags:
     - level1
     - patch
-    - rule_2.3.4
+    - centos7cis_rule_2.3.4
     - disable_service_checks
 
 - name: "SCORED | 2.3.5 | PATCH | Ensure LDAP client is not installed"
@@ -881,5 +881,5 @@
   tags:
     - level1
     - patch
-    - rule_2.3.5
+    - centos7cis_rule_2.3.5
     - disable_service_checks
