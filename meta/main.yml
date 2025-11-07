@@ -1,0 +1,3 @@
+galaxy_info:
+  description: Ansible role for config CIS recommendation for CentOS 7
+  role_name: cis-centos7
