@@ -28,7 +28,7 @@
   set_fact:
     empty_password_accounts: >-
       {{ lookup('dict', ansible_facts.getent_shadow)
-         | selectattr('value', 'equalto', '')       # empty password hash
+         | selectattr('value', 'equalto', '')
          | map(attribute='key')
          | list }}
 
