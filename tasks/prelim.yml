@@ -10,8 +10,14 @@
 - name: "PRELIM | Gather accounts with empty password fields"
   shell: "cat /etc/shadow | awk -F: '($2 == \"\" ) {j++;print $1; } END {exit j}'"
   register: empty_password_accounts
+  failed_when: false
   changed_when: no
   check_mode: no
+
+- name: "PRELIM | Print accounts with empty password fields"
+  ansible.builtin.debug:
+  msg: "Accounts with empty passwords: {{ empty_password_accounts.stdout_lines }}"
+  when: empty_password_accounts.stdout != ""
 
 - name: "PRELIM | Gather UID 0 accounts other than root"
   shell: "cat /etc/passwd | awk -F: '($3 == 0 && $1 != \"root\") {i++;print $1 } END {exit i}'"
