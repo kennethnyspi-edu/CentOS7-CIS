@@ -474,8 +474,7 @@
 - name: "SCORED | 1.3.2 | PATCH | Ensure filesystem integrity is regularly checked"
   cron:
     name: Run AIDE integrity check weekly
-    cron_file: "/var/spool/cron/root"
-    user: "{{ centos7cis_aide_cron['cron_user'] }}"
+    user: "{{ centos7cis_aide_cron['cron_user'] | default('root') }}"
     minute: "{{ centos7cis_aide_cron['aide_minute'] | default('0') }}"
     hour: "{{ centos7cis_aide_cron['aide_hour'] | default('5') }}"
     day: "{{ centos7cis_aide_cron['aide_day'] | default('*') }}"
