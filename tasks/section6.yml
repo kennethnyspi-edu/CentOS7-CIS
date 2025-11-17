@@ -172,11 +172,11 @@
 
 - name: "SCORED | 6.2.1 | PATCH | Ensure password fields are not empty"
   command: passwd -l {{ item }}
-  with_items: "{{ empty_password_accounts.stdout_lines }}"
+  with_items: "{{ empty_password_accounts }}"
   when:
     - centos7cis_level1 is defined and centos7cis_level1
     - empty_password_accounts is defined
-    - empty_password_accounts.rc
+    - empty_password_accounts | length > 0
   tags:
     - level1
     - low
